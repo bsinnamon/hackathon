@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <LinearLayout android:id="@+id/jumpmain"
+	    xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:orientation="vertical"
+	    android:layout_height="fill_parent"
+	    android:layout_width="fill_parent">
+
+       <!-- Header -->
+	   <LinearLayout android:id="@+id/jumplist_header"
+	        android:background="#ff347c12"
+            android:layout_height="wrap_content"
+	        android:layout_width="fill_parent"
+        >
+            <!--  Sequence -->
+	        <TextView android:id="@+id/jumplist_col1"    
+	            android:layout_height="fill_parent"
+	            android:layout_width="wrap_content"
+	            android:width="20dip"
+	            android:height="30dip"
+	        />
+	        
+	        <!--  Date -->
+	        <TextView android:id="@+id/jumplist_col2"
+	            android:layout_height="fill_parent"
+	            android:layout_width="wrap_content"
+	            android:text="@string/JumpDate"
+	            android:width="75dip"
+	            android:height="30dip"
+	        />
+	          
+	        <!--  Time -->
+	        <TextView android:id="@+id/jumplist_col3"
+	            android:layout_height="fill_parent"
+	            android:layout_width="wrap_content"
+	            android:text="@string/JumpTime"
+	            android:width="75dip"
+	            android:height="30dip"
+	        />
+	        
+	        <!--  Air Time -->
+	        <TextView android:id="@+id/jumplist_col4"
+	            android:layout_height="fill_parent"
+	            android:layout_width="wrap_content"
+	            android:text="@string/JumpAir"
+	            android:width="60dip"
+	            android:height="30dip"
+	        />
+	        
+	        <!--  Distance -->
+	        <TextView android:id="@+id/Jumplist_col5"
+	            android:layout_height="fill_parent"
+	            android:layout_width="wrap_content"
+	            android:width="60dip"
+	            android:text="@string/JumpDistance"
+	            android:height="30dip"
+	        />
+	        
+	        <!-- Drop -->
+	        <TextView android:id="@+id/jumplist_col6"
+	            android:layout_height="fill_parent"
+	            android:layout_width="wrap_content"
+	            android:text="@string/JumpDrop"
+	            android:width="60dip"
+	            android:height="30dip"
+	        />
+	        
+	         <!--  Height -->
+	        <TextView android:id="@+id/jumplist_col7"
+	            android:layout_height="fill_parent"
+	            android:layout_width="wrap_content"
+	            android:text="@string/JumpHeight"
+	            android:width="60dip"
+	            android:height="30dip"
+	        />
+
+	    </LinearLayout>
+	    
+       <!-- List Divider -->
+	   <View android:layout_width="fill_parent"
+	        android:layout_height="1dip"
+	        android:background="?android:attr/listDivider" />
+
+	   <!-- Jump List -->
+    <ImageView
+            android:layout_width="150dp"
+            android:layout_height="200dp"
+            android:id="@+id/imageView"/>
+
+    <LinearLayout android:id="@+id/jumplistlayout"
+	        android:layout_width="wrap_content"
+            android:layout_height="fill_parent">
+	        
+          <ListView android:id="@+id/jumplist"
+              android:layout_height="fill_parent"
+	          android:layout_width="fill_parent">
+	      </ListView>
+
+    </LinearLayout>
+       
+ </LinearLayout>

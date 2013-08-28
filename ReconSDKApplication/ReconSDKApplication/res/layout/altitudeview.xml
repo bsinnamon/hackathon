@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:stretchColumns="1">
+
+    <TableRow>
+        <TextView
+            android:layout_column="1"
+            android:text="Pressure"
+            android:gravity="center"
+            android:padding="3dip" />
+      
+    </TableRow>
+    
+    <TableRow>
+        <TextView
+            android:layout_column="1"
+            android:text=""
+             android:id="@+id/id_altpressure"
+            android:gravity="center"
+            android:padding="3dip" />
+   
+    </TableRow>
+    
+    <View
+        android:layout_height="2dip"
+        android:background="#FF909090" />
+
+    <TableRow>
+       <TextView
+            android:layout_column="1"
+            android:text="Altitude"
+            android:gravity="center"
+            android:padding="3dip" />
+    </TableRow>
+    
+    <TableRow>
+        <TextView
+            android:layout_column="1"
+            android:text="Current"
+            android:padding="3dip" />
+        <TextView
+            android:text=""
+            android:id="@+id/id_altvalue"
+            android:gravity="right"
+            android:padding="3dip" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:layout_column="1"
+            android:text="Min"
+            android:padding="3dip" />
+        <TextView
+            android:text=""
+            android:id="@+id/id_altmin"
+            android:gravity="right"
+            android:padding="3dip" />
+    </TableRow>
+    
+    <TableRow>
+        <TextView
+            android:layout_column="1"
+            android:text="Max"
+            android:padding="3dip" />
+        <TextView
+            android:text=""
+            android:id="@+id/id_altmax"
+            android:gravity="right"
+            android:padding="3dip" />
+    </TableRow>
+
+  
+</TableLayout>
+

@@ -1,0 +1,63 @@
+
+    <menu xmlns:android="http://schemas.android.com/apk/res/android">
+       
+        <group android:id="@+id/group">
+        
+           <item android:id="@+id/mnuFullUpdate" android:title="@string/FullUpdate"
+              android:enabled="true" android:visible="true" 
+              android:icon="@android:drawable/ic_media_play" 
+              android:menuCategory="system">
+           </item>
+           
+           <item android:id="@+id/mnuJumpData" android:title="@string/JumpData"
+              android:enabled="true" android:visible="true" 
+              android:icon="@android:drawable/ic_media_play" 
+              android:menuCategory="system">
+           </item>
+           
+           <item android:id="@+id/mnuRunData" android:title="@string/RunData"
+              android:enabled="true" android:visible="true" 
+              android:icon="@android:drawable/ic_media_play" 
+              android:menuCategory="system">
+           </item>
+           
+           <item android:id="@+id/mnuAltitudeData" android:title="@string/AltitudeData"
+              android:enabled="true" android:visible="true" 
+              android:icon="@android:drawable/ic_media_play" 
+              android:menuCategory="system">
+           </item>
+           
+           <item android:id="@+id/mnuTemperatureData" android:title="@string/TemperatureData"
+              android:enabled="true" android:visible="true" 
+              android:icon="@android:drawable/ic_media_play" 
+              android:menuCategory="system">
+           </item>
+           
+           <item android:id="@+id/mnuDistanceData" android:title="@string/DistanceData"
+              android:enabled="true" android:visible="true" 
+              android:icon="@android:drawable/ic_media_play" 
+              android:menuCategory="system">
+           </item>
+           
+           <item android:id="@+id/mnuVerticalData" android:title="@string/VerticalData"
+              android:enabled="true" android:visible="true" 
+              android:icon="@android:drawable/ic_media_play" 
+              android:menuCategory="system">
+           </item>
+           
+           
+           <item android:id="@+id/mnuSpeedTimeData" android:title="@string/SpeedTimeData"
+              android:enabled="true" android:visible="true" 
+              android:icon="@android:drawable/ic_media_play" 
+              android:menuCategory="system">
+           </item>
+
+            <item android:id="@+id/mnuTaskData" android:title="@string/TaskData"
+                  android:enabled="true" android:visible="true"
+                  android:icon="@android:drawable/ic_media_play"
+                  android:menuCategory="system">
+            </item>
+      
+        </group>
+    
+    </menu>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <LinearLayout android:id="@+id/runmain"
+	    xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:orientation="vertical"
+	    android:layout_height="fill_parent"
+	    android:layout_width="fill_parent">
+
+       <!-- Header -->
+	   <LinearLayout android:id="@+id/runlist_header"
+	        android:background="#ff347c12"
+            android:layout_height="wrap_content"
+	        android:layout_width="fill_parent"
+        >
+            <!--  Sequence -->
+	        <TextView android:id="@+id/runlist_col1"    
+	            android:layout_height="fill_parent"
+	            android:layout_width="wrap_content"
+	            android:width="20dip"
+	            android:height="30dip"
+	        />
+	        
+	        <!--  Start -->
+	        <TextView android:id="@+id/runlist_col2"
+	            android:layout_height="fill_parent"
+	            android:layout_width="wrap_content"
+	            android:text="@string/RunStart"
+	            android:width="60dip"
+	            android:height="30dip"
+	        />
+	        
+	        <!--  Avg Speed -->
+	        <TextView android:id="@+id/runlist_col3"
+	            android:layout_height="fill_parent"
+	            android:layout_width="wrap_content"
+	            android:text="@string/RunAvgSpeed"
+	            android:width="80dip"
+	            android:height="30dip"
+	        />
+	        
+	        <!--  Max Speed -->
+	        <TextView android:id="@+id/runlist_col4"
+	            android:layout_height="fill_parent"
+	            android:layout_width="wrap_content"
+	            android:width="80dip"
+	            android:text="@string/RunMaxSpeed"
+	            android:height="30dip"
+	        />
+	        
+	        <!--  Distance -->
+	        <TextView android:id="@+id/runlist_col5"
+	            android:layout_height="fill_parent"
+	            android:layout_width="wrap_content"
+	            android:text="@string/RunDistance"
+	            android:width="70dip"
+	            android:height="30dip"
+	        />
+	        
+	         <!--  Vertical -->
+	        <TextView android:id="@+id/runlist_col6"
+	            android:layout_height="fill_parent"
+	            android:layout_width="wrap_content"
+	            android:text="@string/RunVertical"
+	            android:width="70dip"
+	            android:height="30dip"
+	        />
+
+	    </LinearLayout>
+	    
+       <!-- List Divider -->
+	   <View android:layout_width="fill_parent"
+	        android:layout_height="1dip"
+	        android:background="?android:attr/listDivider" />
+
+	   <!-- Run List -->
+	   <LinearLayout android:id="@+id/runlistlayout"
+	        android:layout_width="wrap_content"
+            android:layout_height="fill_parent">
+	        
+          <ListView android:id="@+id/runlist"
+              android:layout_height="fill_parent"
+	          android:layout_width="fill_parent">
+	      </ListView>
+
+       </LinearLayout>
+       
+ </LinearLayout>
+
+

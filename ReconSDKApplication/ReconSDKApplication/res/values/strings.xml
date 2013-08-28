@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ReconSDK</string>
+    
+    <string name="JumpData">Jump History</string>
+    <string name="RunData">Run History</string>
+    <string name="TemperatureData">Temperature</string>
+    <string name="DistanceData">Distance</string>
+    <string name="VerticalData">Vertical</string>
+    <string name="SpeedTimeData">Speed / Time</string>
+    <string name="AltitudeData">Altitude</string>
+    <string name="FullUpdate">Full Update</string>
+    <string name="TaskData">Task</string>
+    
+    <!--  Run History Grid -->
+    <string name="RunSequence">Sequence</string>
+    <string name="RunStart">Start</string>
+    <string name="RunAvgSpeed">Avg Speed</string>
+    <string name="RunMaxSpeed">Max Speed</string>
+    <string name="RunDistance">Distance</string>
+    <string name="RunVertical">Vertical</string>
+    
+    <!--  Jump History Grid -->
+    <string name="JumpSequence">Sequence</string>
+    <string name="JumpDate">Date</string>
+    <string name="JumpTime">Time</string>
+    <string name="JumpAir">Air Time</string>
+    <string name="JumpDistance">Distance</string>
+    <string name="JumpDrop">Drop</string>
+    <string name="JumpHeight">Height</string>
+</resources>
